@@ -1,6 +1,6 @@
 
 
 @Composable
-fun Welcome(){
+fun Welcome(uvm:UserViewModel){
     Text()
 }

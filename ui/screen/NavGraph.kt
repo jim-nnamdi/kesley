@@ -1,10 +1,10 @@
 package androidx.Navgraph
 
 @Composable
-fun NavGraph() {
+fun NavGraph(uvm:UserViewModel = viewModel()) {
     val controller = rememberNavController()
     NavHost(navController = controller, startDestination = Routes.WELCOME) {
-        composable(Routes.WELCOME){BasicWelcome()}
+        composable(Routes.WELCOME){BasicWelcome(uvm)}
         composable(Routes.HOME) {BasicHome()}
     }
 }
