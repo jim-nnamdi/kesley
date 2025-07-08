@@ -19,6 +19,8 @@ fun TextFieldComponent(
         value = currentValue,
         placeholder = { Text("Enter name ")}
         onValueChange = {
+            /* keyboard inactive if this isn't added */
+            currentValue = it
             onTextChanged(it)
         }
     )
