@@ -1,5 +1,5 @@
 
-class ViewModel {
+class UserViewModel: ViewModel() {
     var uiState = mutableStateOf(UserInputState)
 
     fun onEvent(e: UserDataUiEvent) {
