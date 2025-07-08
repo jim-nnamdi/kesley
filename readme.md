@@ -1,0 +1,2 @@
+## Mvvm Scope
+Breaking off from the un-conventional way of writing kotlin in handling state and events. this un-professional repository is a simulated effort into wrapping into different code modules how events correspond to certain states when using kotlin. written without proper static analysis and is not meant to be executed.
